@@ -1,0 +1,55 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+.nav.nav-pills > li > a {
+    color: #777;
+    border-radius: 0!important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav.nav-pills > li.active > a, 
+.nav.nav-pills > li.active > a:hover,
+.nav.nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #2ECC71 !important;
+
+}
+
+.page-people-directory .nav-contacts {
+    margin-bottom: 20px;
+}
+
+.page-people-directory .nav-contacts li a {
+    color: #666;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.page-people-directory .nav-contacts li .badge {
+    background: none;
+    font-weight: 500;
+    color: #333;
+}
+
+.page-people-directory .nav-contacts li.active .badge {
+    color: #fff;
+    background: none;
+}
+
+.page-people-directory .people-group .media img {
+    width: 45px;
+}
+
+.page-people-directory .people-group .list-group-item {
+    -moz-transition: all 0.2s ease-out 0s;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0;
+    border-width: 0;
+}

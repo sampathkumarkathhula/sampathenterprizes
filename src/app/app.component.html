@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>toolbar document</title>
+  <style>
+    h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 50px;
+	color: #ecf0f1;
+  text-shadow: 4px 4px rgb(247, 24, 198);
+	font-family: 'Cherry Swash', cursive;
+
+}
+.spacer {
+    flex: 1;
+  }
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 100px;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+  </style>
+</head>
+<body>
+  
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img id="logo"
+    width="40"
+    alt="Angular Logo"
+    src="./assets/images/samlogo.jpg"/>
+   <h3>WELCOME TO...</h3> &nbsp;&nbsp;&nbsp;&nbsp;<h1>SAMPATH ENTERPRIZES</h1>
+    <div class="spacer"></div>
+    <i class="fa fa-whatsapp fa-lg"></i> &nbsp;&nbsp;
+    <i class="fa fa-facebook fa-lg"></i>  &nbsp;&nbsp;
+    <i class="fa fa-twitter fa-lg"></i>  &nbsp;&nbsp;
+    <i class="fa fa-linkedin fa-lg"></i>  &nbsp;&nbsp;
+    <i class="fa fa-envelope fa-lg"></i>  &nbsp;&nbsp;
+    <i class="fa fa-telegram fa-lg"></i>  &nbsp;&nbsp;
+    <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
+      <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+        <rect width="400" height="400" fill="none"/>
+        <path d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23" fill="#fff"/>
+      </svg>
+    </a>
+    <a aria-label="Angular on YouTube" target="_blank" rel="noopener" href="https://youtube.com/angular" title="YouTube">
+      <svg id="youtube-logo" height="24" width="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff">
+        <path d="M0 0h24v24H0V0z" fill="none"/>
+        <path d="M21.58 7.19c-.23-.86-.91-1.54-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.42c-.86.23-1.54.91-1.77 1.77C2 8.75 2 12 2 12s0 3.25.42 4.81c.23.86.91 1.54 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.81-.42c.86-.23 1.54-.91 1.77-1.77C22 15.25 22 12 22 12s0-3.25-.42-4.81zM10 15V9l5.2 3-5.2 3z"/>
+      </svg>
+    </a>
+</div>
+
+<!-- <h1> <span> KSK </span> TRADERS</h1> -->
+
+<nav>
+	<a routerLink="/home">home</a>
+	<a routerLink="/items">items</a>
+	<a routerLink="/myorders">myorders</a>
+	<a routerLink="/smartlist">resale list</a>
+	<a routerLink="/offers">offers</a>
+
+  <a routerLink="/signin">signin</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/signup">create new</a>
+
+
+	<div class="animation start-home"></div>
+ 
+</nav>
+
+
+
+
+
+
+
+<!-- <app-myorders></app-myorders> -->
+<!-- <app-trackorders></app-trackorders> -->
+
+
+<router-outlet></router-outlet>
+
+</body>
+
+
+</html>

@@ -1,0 +1,25 @@
+.col-4{
+    background-color: rgb(160, 214, 245);
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    margin: 20px 300px 10px 600px ;
+}
+input[type=text],input[type=password],input[type=number]{
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+}
+input[type=submit],a{
+    width: 100%;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+input[type=submit],a:hover{
+    background-color: chartreuse;
+}
